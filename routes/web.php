@@ -160,5 +160,10 @@ Route::get('/', function () {
 
 
 
-    return view('home');
+    return view('home',[
+        "lunghe" => $lunghe,
+        "corte" => $corte,
+        "cortissime" => $cortissime,
+
+    ]);
 });

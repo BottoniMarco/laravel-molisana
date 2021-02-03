@@ -1,0 +1,14 @@
+.container-pasta{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lunghe-holder {
+    display: flex;
+    flex-wrap: wrap;
+
+    .box{
+        width: calc(100% / 3 - 10px);
+        margin: 5px;
+    }
+}
