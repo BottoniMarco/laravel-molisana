@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+header {
+  text-align: center;
+  background-color: white;
+}
+header img {
+  margin: 50px 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px 5px;
+  margin: 0 5px;
+}
+.list-inline li.active {
+  background-color: #B2E5FC;
+}
+.list-inline li:hover .active {
+  background-color: #B2E5FC;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
